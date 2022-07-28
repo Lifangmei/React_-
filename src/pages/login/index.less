@@ -1,0 +1,49 @@
+/*
+Login组件的样式文件
+*/
+
+.login{
+    width: 100%;
+    height: 100%;
+    background-image: url('./images/bg.jpg');
+    background-size: 100% 100%;
+
+    // 设置头部样式
+    .login-header{
+        display: flex;
+        align-items: center;
+        height: 80px;
+        background-color: rgba(21,20,13,.5);
+        img{
+            width: 40px;
+            height: 40px;
+            margin: 0 15px 0 50px;
+        }
+        h1{
+            font-size: 30px;
+            color: white;
+        }
+    }
+    // 设置登录框样式
+    .login-content{
+        width: 400px;
+        height: 300px;
+        margin: 100px auto;
+        padding: 20px 40px;
+        background-color: #fff;
+        overflow: hidden;
+        h2{
+            font-size: 20px;
+            font-weight: bold;
+            text-align: center;
+        }
+        // 修改从antd中引入的登录表单组件的样式
+        // .ant-pro-form-login-container{
+            .ant-pro-form-login-main{
+                width: 100%;
+            }
+        // }
+        
+        
+    }
+}
